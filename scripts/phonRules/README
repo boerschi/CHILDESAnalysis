@@ -1,0 +1,10 @@
+27/09/12
+
+This folder contains a general way of applying phonological rules to a phonemic dictionary using the HDMan command which allows for context-sensitive substitution using script-files
+
+flap.ded illustrates how to formulate the flapping rule for English and can serve as a template for further rules
+
+applyRules.sh is an easy way to generate a lexicon that contains both the original and the derived forms (whereas HDMan by itself would substitute the original by the derived forms, that is, the rules are treated as compulsory rather than optional)
+
+Example:
+./applyRules.sh wordlist dict flap.ded test

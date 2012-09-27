@@ -1,0 +1,7 @@
+#define classes for context
+DC stressv AH1 AA1 IY1 IH1 EH1 OW1 AW1 AY1 ER1
+DC unstressv AH0 AA0 IY0 IH0 EH0 OW0 AW0 AY0 ER0
+
+#can't define classes for targets, have to compile out
+CR DX stressv T unstressv
+CR DX stressv D unstressv
